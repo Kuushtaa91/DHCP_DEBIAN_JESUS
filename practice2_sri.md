@@ -13,6 +13,7 @@
 [9.- COMPPROBACION DEL CLIENTE CON RESERVA](#compprobacion-del-cliente-con-reserva)  
 [10.- COMPPROBACION DEL CLIENTE SIN RESERVA](#comprobacion-del-cliente-sin-reserva)  
 [11.- IP equipos](#ip-equipos)
+[12.- LOGS DE FALLO](#logs-de-fallos)
 
 
 ## INTRODUCCION:   
@@ -152,3 +153,26 @@ Comprobación en el cliente sin reserva
 |Debian12|DEBIAN_PRECTICA2|192.168.4.10/24|---|
 |Windows10_1|CLIENTEW10_SRI|192.168.4.91/24|---|
 |Windows10_2|CLIENTEW10_SRI_2|192.168.4.2/24|---|
+
+## LOGS DE FALLOS:
+
+### EXPLICACION:
+
+```
+Aqui se ve la instalacion, el filtrado de los logs con comando journald
+```
+
+```
+Instalación del paquete: apt install rsyslog  
+```
+```
+Filtrado: para filtrar mensajes en ese fichero debemos proceder de la siguiente manera:    
+
+Ejecutar el siguiente comando como root: tail -f /var/log/syslog  
+
+Si queremos ver únicamente los mensajes que se refieran a DHCP podemos añadir un filtro utilizando una tubería y ejecutando un grep. Por ejemplo, con el siguiente comando realizamos un filtro de las líneas que contengan la palabra dhcp: tail -f /var/log/syslog| grep dhcp 
+```
+
+### DEMOSTRACION:
+![logs de fallo](img/Captura17.PNG)
+![logs de fallo](img/Captura18.PNG)

@@ -42,9 +42,9 @@ En las captura siguiente se va a mostrar la configuración de la tarjeta de red 
 
 ### DEMOSTRACION:
 
-Configuracion Pfsense:
+Configuracion Pfsense:  
 ![Configuración-de-red](img/Captura.PNG)
-configuracion Debian:  
+configuracion Debian:   
 ![Configuración-de-red](img/Capturaa.PNG)
 ![Configuración-de-red](img/Captura1.PNG)
 

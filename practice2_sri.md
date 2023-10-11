@@ -12,7 +12,7 @@
 [8.- COMPRABAR DHCP](#comprabar-dhcp)  
 [9.- COMPPROBACION DEL CLIENTE CON RESERVA](#compprobacion-del-cliente-con-reserva)  
 [10.- COMPPROBACION DEL CLIENTE SIN RESERVA](#comprobacion-del-cliente-sin-reserva)  
-[11.- IP equipos](#ip-equipos)
+[11.- IP equipos](#ip-equipos)  
 [12.- LOGS DE FALLO](#logs-de-fallos)
 
 
